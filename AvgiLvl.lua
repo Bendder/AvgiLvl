@@ -216,14 +216,16 @@ end
 
 function f:PLAYER_EQUIPMENT_CHANGED()
 	local overall, equipped, pvp = GetAverageItemLevel("player")
+	-- GetAverageItemLevel still returns a pvp value, but it is always the same as overall.
 		
-	getglobal("AvgiLvlText"):SetText(string.format("%i/%i", equipped,overall,pvp))
+	getglobal("AvgiLvlText"):SetText(string.format("%i/%i", equipped,overall))
 end
 
 function f:PLAYER_TALENT_UPDATE()
 	local overall, equipped, pvp = GetAverageItemLevel("player")
-		
-	getglobal("AvgiLvlText"):SetText(string.format("%i/%i/%i", equipped,overall,pvp))
+	-- GetAverageItemLevel still returns a pvp value, but it is always the same as overall.
+	
+	getglobal("AvgiLvlText"):SetText(string.format("%i/%i", equipped,overall))
 end
 
 function f:GetTipAnchor(frame)
