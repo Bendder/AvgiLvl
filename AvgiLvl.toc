@@ -1,4 +1,4 @@
-## Interface: 80300
+## Interface: 90100
 ## Title: AvgiLvl - |cffffffffGearRating|r
 ## Version: 2.10	
 ## Author: arathon2 (Bendder - Arygos - US)
