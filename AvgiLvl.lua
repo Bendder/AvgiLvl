@@ -1,6 +1,6 @@
 local start, max, starttime, startlevel
 
-local f = CreateFrame("frame","AvgiLvl",UIParent)
+local f = CreateFrame("frame","AvgiLvl",UIParent,"BackdropTemplate")
 f:SetScript("OnEvent", function(self, event, ...) if self[event] then return self[event](self, event, ...) end end)
 
 function f:PLAYER_LOGIN()
@@ -76,8 +76,8 @@ function f:CreateAvg_Frame()
 			tile = true; tileSize = 32; edgeSize = 16;
 			insets = { left = 5; right = 5; top = 5; bottom = 5; };
 		} );
-		f:SetBackdropBorderColor(0.5, 0.5, 0.5);
-		f:SetBackdropColor(0.5, 0.5, 0.5, 0.6)
+		--f:SetBackdropBorderColor(0.5, 0.5, 0.5);
+		--f:SetBackdropColor(0.5, 0.5, 0.5, 0.6)
 	else
 		f:SetBackdrop(nil)
 	end
