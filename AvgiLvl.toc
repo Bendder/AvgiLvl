@@ -1,9 +1,9 @@
-## Interface: 90100
+## Interface: 90001
 ## Title: AvgiLvl - |cffffffffGearRating|r
-## Version: 2.10	
+## Version: 2.11	
 ## Author: arathon2 (Bendder - Arygos - US)
 ## Notes: Gives equipped and overall iLvl to indicate the quality of a character's gear.
 ## SavedVariablesPerCharacter: AvgiLvl_DB
 ## X-Category: Inventory
-## X-Date: Oct - 13 - 2020
+## X-Date: Oct - 14 - 2020
 AvgiLvl.lua
