@@ -1,4 +1,4 @@
-## Interface: 90002
+## Interface: 90005
 ## Title: AvgiLvl - |cffffffffGearRating|r
 ## Version: 2.11	
 ## Author: arathon2 (Bendder - Arygos - US)
