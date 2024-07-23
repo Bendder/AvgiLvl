@@ -5,5 +5,6 @@
 ## Notes: Gives equipped and overall iLvl to indicate the quality of a character's gear.
 ## SavedVariablesPerCharacter: AvgiLvl_DB
 ## X-Category: Inventory
-## X-Date: Jan - 16 - 2024
+## X-Date: Jul - 23 - 2024
+## X-Curse-Project-ID: 13931
 AvgiLvl.lua
