@@ -21,7 +21,7 @@ function f:PLAYER_LOGIN()
 	SLASH_AvgiLvl1 = "/avgilvl";
 	SlashCmdList["AvgiLvl"] = AvgiLvl_SlashCommand;
 	
-	local ver = GetAddOnMetadata("AvgiLvl","Version") or '1.0'
+	local ver = C_AddOns.GetAddOnMetadata("AvgiLvl","Version") or '1.0'
 	DEFAULT_CHAT_FRAME:AddMessage(string.format("|cFF99CC33%s|r [v|cFFDF2B2B%s|r] loaded:   /avgilvl", "AvgiLvl", ver or "1.0"))
 	
 	self:UnregisterEvent("PLAYER_LOGIN")
