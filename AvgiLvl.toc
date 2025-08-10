@@ -1,4 +1,4 @@
-## Interface: 100207,110000,110002
+## Interface: 110200
 ## Title: AvgiLvl - |cffffffffGearRating|r
 ## Version: 2.15
 ## Author: arathon2 (Bendder - Arygos - US)
@@ -8,3 +8,4 @@
 ## X-Date: Jul - 23 - 2024
 ## X-Curse-Project-ID: 13931
 AvgiLvl.lua
+
